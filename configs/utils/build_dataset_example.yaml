@@ -8,7 +8,7 @@ processor_cfg:
   detection_cfg:
     model_cfg: configs/mmdet/cascade_rcnn_r50_fpn_1x.py
     checkpoint_file: mmskeleton://mmdet/cascade_rcnn_r50_fpn_20e
-    bbox_thre: 0.8
+    bbox_thre: 0.2
   estimation_cfg:
     model_cfg: configs/pose_estimation/hrnet/pose_hrnet_w32_256x192_test.yaml
     checkpoint_file: mmskeleton://pose_estimation/pose_hrnet_w32_256x192
