@@ -22,7 +22,7 @@ The higher versions are not covered by tests.
 c. Clone mmskeleton from github:
 
 ``` shell
-git clone https://github.com/open-mmlab/mmskeleton.git
+git clone https://github.com/TwentyBN/mmskeleton.git
 cd mmskeleton
 ```
 
